@@ -1,4 +1,4 @@
-const backendDomin = "https://e-commerce-full-delta.vercel.app"
+const backendDomin = "https://e-commerce-full-git-main-kishores-projects-f7d646fc.vercel.app"
 
 const SummaryApi = {
     signUP : {
