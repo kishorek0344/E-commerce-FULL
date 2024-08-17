@@ -9,7 +9,7 @@ const app = express();
 app.use(
   cors({
     // origin: process.env.FRONTEND_URL,
-    origin: 'http://e-commerce-website-flame-six.vercel.app',
+    origin: 'https://e-commerce-website-flame-six.vercel.app',
     credentials: true,
   })
 );

@@ -1,4 +1,4 @@
-const backendDomin = "http://e-commerce-full-delta.vercel.app"
+const backendDomin = "https://e-commerce-full-delta.vercel.app"
 
 
 
