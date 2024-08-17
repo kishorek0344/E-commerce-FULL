@@ -1,4 +1,4 @@
-const backendDomin = "http://localhost:8080"
+const backendDomin = "http://e-commerce-full-delta.vercel.app"
 
 const SummaryApi = {
     signUP : {
