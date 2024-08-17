@@ -7,14 +7,14 @@ const searchProduct = async (req, res) => {
     const regex = new RegExp(query, "i", "g");
 
     const product = await productModel.find({
-      $or: [
+      "$or": [
         {
           productName: regex,
         },
         {
           category: regex,
-        },
-      ],
+        }
+      ]
     });
 
     res.json({

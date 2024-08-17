@@ -6,15 +6,15 @@ const filterProductController = async (req, res) => {
 
     const product = await productModel.find({
       category: {
-        $in: categoryList,
-      },
+          "$in": categoryList
+      }
     });
 
     res.json({
       data: product,
       message: "product",
       error: false,
-      success: true,
+      success: true
     });
   } catch (err) {
     res.json({
