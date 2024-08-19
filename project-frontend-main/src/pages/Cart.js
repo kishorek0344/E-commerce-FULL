@@ -1,8 +1,8 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react'
+import SummaryApi from '../common'
+import Context from '../context'
+import displayINRCurrency from '../helpers/displayCurrency'
 import { MdDelete } from "react-icons/md";
-import SummaryApi from '../common';
-import Context from '../context';
-import displayINRCurrency from '../helpers/displayCurrency';
 
 const Cart = () => {
     const [data,setData] = useState([])
