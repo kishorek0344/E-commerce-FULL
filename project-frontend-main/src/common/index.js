@@ -1,4 +1,4 @@
-const backendDomin = "https://project-backend-mdth.onrender.com"
+const backendDomin = "https://e-commerce-full-delta.vercel.app"
 
 
 
